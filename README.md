@@ -48,7 +48,8 @@ docker build -t inventory-app .
 docker run -d -p 5000:5000 inventory-app
 ```
 
-##License
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
