@@ -33,7 +33,7 @@ A simple, Dockerized Flask-based inventory management application that performs 
 
 ```bash
 git clone https://github.com/your-username/inventory-web-app.git
-cd inventory-web-app
+cd inventory-web-app```
 
 ```bash
 docker build -t inventory-app .
