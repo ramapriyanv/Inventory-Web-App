@@ -33,10 +33,14 @@ A simple, Dockerized Flask-based inventory management application that performs 
 
 ```bash
 git clone https://github.com/your-username/inventory-web-app.git
-cd inventory-web-app```
+cd inventory-web-app
+
+### Step 2: Build the Docker Image
 
 ```bash
 docker build -t inventory-app .
+
+### Step 3: Run the Docker Container
 
 ```bash
 docker run -d -p 5000:5000 inventory-app
